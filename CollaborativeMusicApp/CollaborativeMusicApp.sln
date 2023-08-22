@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollaborativeMusicApp", "Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollaborativeMusicApp.Domain", "CollaborativeMusicApp.Domain\CollaborativeMusicApp.Domain.csproj", "{663347B3-5B7A-425D-B340-A71F54B6D12C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollaborativeMusicApp.Application", "CollaborativeMusicApp.Application\CollaborativeMusicApp.Application.csproj", "{E25E17AC-B03F-4DFF-A571-DCBEE6AC459A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{663347B3-5B7A-425D-B340-A71F54B6D12C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{663347B3-5B7A-425D-B340-A71F54B6D12C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{663347B3-5B7A-425D-B340-A71F54B6D12C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E25E17AC-B03F-4DFF-A571-DCBEE6AC459A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E25E17AC-B03F-4DFF-A571-DCBEE6AC459A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E25E17AC-B03F-4DFF-A571-DCBEE6AC459A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E25E17AC-B03F-4DFF-A571-DCBEE6AC459A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
