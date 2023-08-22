@@ -69,6 +69,8 @@ artifacts/
 ScaffoldingReadMe.txt
 
 CollaborativeMusicApp/.idea/
+CollaborativeMusicApp/CollaborativeMusicApp/appsettings.json
+CollaborativeMusicApp/CollaborativeMusicApp/appsettings.Development.json
 
 # StyleCop
 StyleCopReport.xml
