@@ -1,6 +1,11 @@
-﻿namespace CollaborativeMusicApp.Domain.DTOs.Login;
+﻿using CollaborativeMusicApp.Domain.Common;
 
-public record LoginUserResponseDto
+namespace CollaborativeMusicApp.Domain.DTOs.Login;
+
+public record LoginUserResponseDto(string Email, string Username, string AccessToken, bool Success, string ErrorMessage) 
+    : BaseResponseDto(Success, ErrorMessage)
 {
-    
+    public string Email { get; } = Email;
+    public string Username { get; } = Username;
+    public string AccessToken { get; } = AccessToken; 
 }
