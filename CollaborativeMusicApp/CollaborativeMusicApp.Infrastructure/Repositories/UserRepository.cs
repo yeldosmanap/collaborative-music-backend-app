@@ -14,6 +14,6 @@ public class UserRepository : BaseRepository<User>, IUserRepository
 
     public async Task<User?> GetUserByEmailAsync(string email)
     {
-        return await _dataContext.Users.FirstAsync(user => user.Email.Equals(email));
+        return await _dataContext.Users.FirstOrDefaultAsync(user => user.Email.Equals(email));
     }
 }
