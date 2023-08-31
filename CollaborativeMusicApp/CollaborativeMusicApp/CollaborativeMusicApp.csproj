@@ -13,4 +13,9 @@
       </Content>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\CollaborativeMusicApp.Application\CollaborativeMusicApp.Application.csproj" />
+      <ProjectReference Include="..\CollaborativeMusicApp.Domain\CollaborativeMusicApp.Domain.csproj" />
+    </ItemGroup>
+
 </Project>
